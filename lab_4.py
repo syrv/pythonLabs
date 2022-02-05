@@ -9,7 +9,7 @@ class Abiturient:
         self.middle_name=middle_name
         self.adr=adr
         self.phone=phone
-        self.__mark=0
+        self.__mark=mark
 
     @staticmethod  # статический метод
     def __accuracy(mark):   # сделаем метод приватным
